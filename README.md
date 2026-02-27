@@ -4,9 +4,6 @@ This repository contains Python and Julia scripts designed to analyze and visual
 
 The scripts automatically fetch disaggregated Consumer Price Index (CPI) data from the Federal Reserve Economic Data (FRED) API, calculate inflation metrics, and generate publication-ready charts mapping price changes alongside policy events.
 
-![Inflation Plot Example](inflation_plot_second_term.png) 
-*(Note: Upload your generated PNG to the repo and this image will display here)*
-
 ## Features
 
 * **Automated Data Fetching:** Directly pulls Headline, Core, Food, and Energy CPI series from FRED. Uses `vintage_date` pinning (in the Julia version) for strict academic reproducibility.
